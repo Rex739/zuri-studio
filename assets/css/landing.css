@@ -40,44 +40,34 @@ footer{
 	.img{
 		width: 100%;
 	}
-
-
-
 	.hd-1{
 		display: flex;
 		height: 30vh;
 		align-items: flex-end;
-
 	}
-
 	.img-2{
-		margin-top: 30px;
+		/*margin-top: 30px;*/
 	}
-
 	.con{
 		padding-top: 100px;
 		display: flex;
 		height: 80vh;
 		align-items: center;
 	}
-
 	.size{
-
 		padding: 0 10px;
 		font-size: 12px;
 	}
-
 	.pg-tit{
 		text-align: center;
 		padding-top: 10px;
 	}
-
-	.img__wrap {
+	.img_wrap {
 	  position: relative;
 	 }
 
 	.img_description{
-		display: flex;
+	display: flex;
 	  position: absolute;
 	  top: 0;
 	  bottom: 0;
@@ -90,10 +80,11 @@ footer{
 	  transition: opacity .2s, visibility .2s;
 	  justify-content: center;
 	  align-items: center;
-	  height: 85%;
-	  width: 90%
+	  height: 100%;
+	  width: 100%
 	  padding: 0;
 	  margin: 0;
+	  background-size: 200px;
 	}
 
 	.img_description > a{
