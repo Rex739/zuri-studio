@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/font.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="./css/gallery-qobi.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
     <!-- ADD YOUR CSS LINK -->
     <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
 
@@ -40,24 +40,24 @@
     <!-- LANDING MAIN STARTS -->
     <main class="container con">
             <div class="">
-                <div class="pg-title">
+                <div class="pg-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
                     <h1 id="zuri">ZURI</h1>
                     <h1 id="zuri-title">Creative Photography Template</h1>
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6">
-                        <div class="img_wrap">
+                        <div class="img_wrap wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.2s">
                             <img class="img img-1" src="images/portfolio.png">
                             <div class="img_description"><a href="studio-demo/home.html"><button class=view>view demo</button></a></div>
                         </div>
-                        <p class="pg-tit">Studio Demo</p>
+                        <p class="pg-tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">Studio Demo</p>
                     </div>
                     <div class="col-12 col-sm-6">
-                        <div class="img_wrap">
+                        <div class="img_wrap wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s">
                             <a href="#"><img class="img img-2" src="images/studio.png"></a>
                             <div class="img_description"><a href="onepage-personal/onePage.html"><button class=view>view demo</button></a></div>
                         </div>
-                        <p class="pg-tit">One Page Personal Demo</p>
+                        <p class="pg-tit wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">One Page Personal Demo</p>
                     </div>
                 </div>
             </div>
@@ -77,6 +77,9 @@
     <!-- LANDING MAIN ENDS -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="assets/js/loader.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script>
+       new WOW().init();
+    </script>
 </body>
