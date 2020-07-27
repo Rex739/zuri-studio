@@ -193,10 +193,7 @@ footer{
 		align-items: center;
 
 	}
-
-
 }
-
 @media all and (min-width: 992px){
 	body{
 		height: 100%;
@@ -210,8 +207,6 @@ footer{
 	.hd-1{
 		height: 20vh;
 	}
-
-
 }
 .loader{
 	font-family: 'Quicksand', sans-serif;
