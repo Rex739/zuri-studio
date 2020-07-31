@@ -113,6 +113,9 @@ footer{
 	#zuri{
 		font-size: 1.875rem;
 	}
+	.zuri{
+		font-size: 0.675rem;
+	}
 
 	#zuri-title{
 		font-size: 1.25rem;
@@ -130,6 +133,9 @@ footer{
 
 	#zuri{
 		font-size: 2.575rem;
+	}
+	.zuri{
+		font-size: 1rem;
 	}
 }
 @media all and (min-width: 576px){
